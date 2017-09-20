@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/grad_purple"
+
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="10"
+
+        >
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="0dp"
+         android:orientation="vertical"
+        android:background="@drawable/layout_bg"
+         android:layout_margin="10dp"
+         android:layout_gravity="top"
+         android:layout_weight="2"
+         >
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:orientation="vertical"
+             android:layout_margin="10dp"
+             android:layout_gravity="top"
+             >
+             <LinearLayout
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:orientation="horizontal"
+                 android:layout_margin="10dp"
+                 android:layout_gravity="top"
+                 >
+                 <Button
+                     android:id="@+id/Button_left"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:layout_gravity="center"
+                     android:text="&lt;"/>
+
+                 <FrameLayout
+                 android:layout_width="150dp"
+                 android:layout_height="150dp"
+                     android:padding="10dp"
+                 android:layout_gravity="center">
+         <ImageSwitcher
+             android:id="@+id/imageSwitcher"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:layout_gravity="center"
+
+             android:src="@mipmap/ic_launcher"
+             android:scaleType="fitXY"
+             android:layout_centerHorizontal="true"
+             android:layout_centerVertical="true" />
+
+                 <ImageView
+                     android:id="@+id/imageView"
+                     android:layout_width="match_parent"
+                     android:layout_height="match_parent"
+                     android:layout_gravity="center"
+                     android:scaleType="fitXY"
+                     android:layout_centerHorizontal="true"
+                     android:layout_centerVertical="true"
+                     />
+             </FrameLayout>
+
+
+             <Button
+                 android:id="@+id/Button_right"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_gravity="center"
+                 android:text="&gt;"/>
+</LinearLayout>
+         </LinearLayout>
+
+         <EditText
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:hint="MEDICIN NAME"
+             android:layout_margin="10dp"
+             android:textColorHint="@color/textcolour"
+             android:textAppearance="?android:attr/textAppearanceSmall"
+             />
+         <EditText
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:hint="MEDICIN DESCRIPTION"
+             android:layout_margin="10dp"
+             android:textColorHint="@color/textcolour"
+             android:textAppearance="?android:attr/textAppearanceSmall"
+             />
+
+     </LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:orientation="horizontal"
+    android:background="@drawable/layout_bg"
+    android:layout_margin="10dp"
+    android:layout_weight="1"
+    android:padding="10dp"
+    android:weightSum="10">
+
+    <EditText
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:hint="Dose"
+        android:textColorHint="@color/textcolour"
+        android:layout_weight="5"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        />
+
+    <Spinner
+
+        android:id="@+id/Spinner_unit"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="4"
+        android:gravity="center"
+        android:spinnerMode="dialog"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+
+
+
+</LinearLayout>
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="0dp"-->
+            <!--android:orientation="vertical"-->
+            <!--android:background="@drawable/layout_bg"-->
+            <!--android:layout_margin="10dp"-->
+            <!--android:layout_weight="1"-->
+            <!--android:weightSum="4"-->
+            <!--android:padding="10dp"-->
+
+           <!--&gt;-->
+            <!--<TextView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="0dp"-->
+            <!--android:text="INSTRUCTION"-->
+                <!--android:layout_gravity="top"-->
+                <!--android:layout_weight="1"-->
+                <!--android:gravity="top"-->
+<!--android:paddingLeft="10dp"-->
+                <!--android:textAppearance="?android:attr/textAppearanceSmall"/>-->
+       <!--/>-->
+
+            <!--<Spinner-->
+
+                <!--android:id="@+id/Spinner_intruction"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:textColor="@color/white"-->
+                <!--android:layout_height="0dp"-->
+                <!--android:layout_gravity="center"-->
+                <!--android:gravity="center"-->
+                <!--android:layout_weight="2"-->
+                <!--android:spinnerMode="dialog"-->
+                <!--android:textAppearance="?android:attr/textAppearanceSmall" />-->
+            <!--<LinearLayout-->
+                <!--android:id="@+id/LinearLayout_TextView_medication_instruction"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="0dp"-->
+                <!--android:layout_weight="2"-->
+                <!--android:padding="10dp">-->
+
+            <!--</LinearLayout>-->
+        <!--</LinearLayout>-->
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="vertical"
+            android:background="@drawable/layout_bg"
+            android:layout_margin="10dp"
+            android:layout_weight="2"
+            android:padding="10dp"
+            android:weightSum="3"
+           >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:text="SCHEDULE"
+                android:layout_gravity="center"
+                android:gravity="left"
+                android:layout_weight="1"
+                android:paddingLeft="10dp"
+                android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+            <TextView
+                android:id="@+id/TextView_as_needed"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:text="As Needed"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:textColor="@color/red"
+                android:gravity="left"
+              android:padding="10dp"
+
+                android:textAppearance="?android:attr/textAppearanceSmall"/>
+            </LinearLayout>
+
+    </LinearLayout>
+
+
+</ScrollView>

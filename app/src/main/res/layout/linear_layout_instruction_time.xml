@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/dosage_item"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:context=".Reminder.SetReminder"
+
+    >
+<LinearLayout
+
+    android:id="@+id/LinearLayout_instruction_time"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    android:weightSum="4"
+    android:background="@drawable/layout_bg">
+    <TextView
+        android:id="@+id/TextView_instruction"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:text="INSTRUCTION"
+    android:layout_gravity="center"
+        android:layout_weight="1"
+    android:gravity="left"
+    android:paddingLeft="10dp"
+    android:padding="10dp"
+    android:textAppearance="?android:attr/textAppearanceSmall"/>
+    <EditText
+
+    android:id="@+id/EditText_dosage"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_gravity="center"
+    android:layout_weight="1"
+    android:gravity="left"
+    android:hint="Select dosage"
+    android:textAppearance="?android:attr/textAppearanceSmall" />
+    <EditText
+    android:id="@+id/EditText_other"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:hint="Write medication instruction here"
+    android:layout_gravity="center"
+    android:gravity="left"
+        android:layout_weight="1"
+    android:paddingLeft="10dp"
+    android:padding="10dp"
+    android:textColorHint="@color/textcolour"
+    android:textAppearance="?android:attr/textAppearanceSmall"/>
+    <EditText
+        android:id="@+id/EditText_time"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:hint="Time"
+        android:layout_weight="1"
+    android:layout_margin="10dp"/>
+
+</LinearLayout>
+    <!--<LinearLayout-->
+    <!--android:id="@+id/LinearLayout_button_remove"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_margin="10dp"-->
+    <!--android:background="@drawable/layout_bg">-->
+        <Button
+            android:id="@+id/Button_remove"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Remove Item"
+            android:layout_margin="10dp"/>
+        <!--</LinearLayout>-->
+</LinearLayout>

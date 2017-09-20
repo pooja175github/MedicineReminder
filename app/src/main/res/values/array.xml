@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <array name="repeat_type">
+        <item>One-time </item>
+        <item>Daily</item>
+        <item>Weekly</item>
+
+    </array>
+    <array name="snooze">
+        <item>5 Minutes</item>
+        <item>10 Minutes</item>
+        <item>15 Minutes</item>
+        <item>20 Minutes</item>
+
+    </array>
+    <array name="format">
+        <item>24 hour</item>
+        <item>12 hour</item>
+
+    </array>
+    <array name="dateformat">
+        <item>dd/MM/yyyy</item>
+        <item>MM/dd/yyyy</item>
+        <item>yyyy/MM/dd</item>
+
+    </array>
+</resources>

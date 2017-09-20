@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">RecyclerViewCardView</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_addmedicine">Addmedicine</string>
+    <string name="onetime">One Time</string>
+    <string name="everyday">Daily</string>
+    <string name="everymonth">Every Month</string>
+    <string name="everyyear">Every Year</string>
+
+    <string name="type_income">Income Tax</string>
+    <string name="type_service">Service Tax</string>
+    <string name="type_custom">Custom Reminder</string>
+
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+</resources>
