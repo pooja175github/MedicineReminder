@@ -1,5 +1,5 @@
 # Medicine Reminder
-
+## Play store Link : https://play.google.com/store/apps/details?id=com.pragma.medicinereminder&hl=en
 ## Description Of Medicine
 ![Welcome Menu Outcome](Images/DescriptionofMedicine.jpg)
 
